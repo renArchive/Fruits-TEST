@@ -1,0 +1,31 @@
+.card {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  align-content: center;
+  background-color: rgba(237, 236, 236, 0.587);
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: rgb(216, 228, 232);
+}
+
+.fruit_details li {
+  list-style: none;
+  margin: 5px;
+}
+
+.fruit_details table {
+  margin-top: 10px;
+  border: 2px solid gray;
+}
+
+.fruit_details thead {
+  background-color: lightgray;
+}
